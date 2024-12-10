@@ -63,21 +63,22 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(CheckDardo());
             StartCoroutine(SpawnObj());
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(aro, aroSpawner.transform.position, Quaternion.Euler(90, 0, 0));
-            //dardos
-            dardoListaObjs.Add(Instantiate(dardo, dardoSpawner.transform.position, Quaternion.Euler(90, 0, 0)));
-            dardoListaObjs1.Add(Instantiate(dardo1, dardoSpawner1.transform.position, Quaternion.Euler(90, 0, 0)));
-            //aros
-            aroListaObjs.Add(Instantiate(aro, aroSpawner.transform.position, Quaternion.identity));
-            aroListaObjs1.Add(Instantiate(aro1, aroSpawner1.transform.position, Quaternion.identity));
-            //bolas
-            bolasListaObjs.Add(Instantiate(bolas, bolasSpawner.transform.position, Quaternion.identity));
-            bolasListaObjs1.Add(Instantiate(aro1, bolasSpawner1.transform.position, Quaternion.identity));
+            //Instantiate(aro, aroSpawner.transform.position, Quaternion.Euler(90, 0, 0));
+            ////dardos
+            //dardoListaObjs.Add(Instantiate(dardo, dardoSpawner.transform.position, Quaternion.Euler(90, 0, 0)));
+            //dardoListaObjs1.Add(Instantiate(dardo1, dardoSpawner1.transform.position, Quaternion.Euler(90, 0, 0)));
+            ////aros
+            //aroListaObjs.Add(Instantiate(aro, aroSpawner.transform.position, Quaternion.identity));
+            //aroListaObjs1.Add(Instantiate(aro1, aroSpawner1.transform.position, Quaternion.identity));
+            ////bolas
+            //bolasListaObjs.Add(Instantiate(bolas, bolasSpawner.transform.position, Quaternion.identity));
+            //bolasListaObjs1.Add(Instantiate(aro1, bolasSpawner1.transform.position, Quaternion.identity));
+
+
         }
         
     }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1057477562033177460}
   - component: {fileID: 2229231016085893511}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -63,7 +63,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6622375752269105319}
   - component: {fileID: 2687521986021011662}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -116,7 +116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5218014132551621554}
   - component: {fileID: 6468118815191373445}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -169,7 +169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2862011501879032592}
   - component: {fileID: 4760446021280237237}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -222,7 +222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8045453884825854913}
   - component: {fileID: 2080976893918901145}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -275,7 +275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074300654084256183}
   - component: {fileID: 6782976338814653033}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -310,7 +310,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -328,7 +328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8028048429303317856}
   - component: {fileID: 6367698433222236963}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +363,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -381,7 +381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5721332724036458670}
   - component: {fileID: 113006433167463379}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -434,7 +434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5667853712432264069}
   - component: {fileID: 8172014304893949779}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +469,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -487,7 +487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3224877715915423752}
   - component: {fileID: 1282312593657002857}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +522,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -540,7 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2507861923300325924}
   - component: {fileID: 394380808012470928}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -593,7 +593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1782986278685833662}
   - component: {fileID: 1848956563440073625}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -628,7 +628,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -646,7 +646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6793787992922613254}
   - component: {fileID: 8935558133515649429}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -699,7 +699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4718873313597281521}
   - component: {fileID: 1613238774874160482}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,7 +734,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -752,7 +752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414176293325839041}
   - component: {fileID: 1889636532370954737}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SnapInteractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4262104700543462754}
   - component: {fileID: 1014398913242550421}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -843,7 +843,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -861,7 +861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6849080926683713022}
   - component: {fileID: 4006759629293050221}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -896,7 +896,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -976,6 +976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aro
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 792d8bdf75a229447a336a78e4d62d32, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1043,6 +1047,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 792d8bdf75a229447a336a78e4d62d32, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4678545602248823536}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 792d8bdf75a229447a336a78e4d62d32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1080732287375143533}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 792d8bdf75a229447a336a78e4d62d32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6809357313344204370}
   m_SourcePrefab: {fileID: 100100000, guid: 792d8bdf75a229447a336a78e4d62d32, type: 3}
 --- !u!1 &301517163656102413 stripped
 GameObject:
@@ -1062,7 +1072,7 @@ MeshCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 640
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
@@ -1161,6 +1171,41 @@ MonoBehaviour:
   _movementProvider: {fileID: 0}
   _handAligment: 1
   _handGrabPoses: []
+--- !u!114 &1080732287375143533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301517163656102413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 358cbd2353c662a42bb45a99d6772cc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6809357313344204370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301517163656102413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1bc992571301d4a9602ac95ef4c71a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 2217829322424421625}
+  _rigidbody: {fileID: 2826035089887660307}
+  _grabSource: {fileID: 0}
+  _useClosestPointAsGrabSource: 0
+  _releaseDistance: 0
+  _resetGrabOnGrabsUpdated: 1
+  _physicsGrabbable: {fileID: 0}
 --- !u!4 &1109263126942423223 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 792d8bdf75a229447a336a78e4d62d32, type: 3}
