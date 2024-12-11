@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -40,47 +41,91 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         //dardo0
         dardoBoundSpawn = dardoSpawner.GetComponent<BoxCollider>();
-        dardoListaObjs.Add(Instantiate(dardo, dardoSpawner.transform.position, Quaternion.Euler(90, 0, 0)));
+        //dardoListaObjs.Add(Instantiate(dardo, dardoSpawner.transform.position, Quaternion.Euler(90, 0, 0)));
         //dardo1
         dardoBoundSpawn1 = dardoSpawner1.GetComponent<BoxCollider>();
-        dardoListaObjs1.Add(Instantiate(dardo1, dardoSpawner1.transform.position, Quaternion.Euler(90, 0, 0)));
+        //dardoListaObjs1.Add(Instantiate(dardo1, dardoSpawner1.transform.position, Quaternion.Euler(90, 0, 0)));
         //aro0
         aroBoundSpawn = aroSpawner.GetComponent<BoxCollider>();
-        aroListaObjs.Add(Instantiate(aro, aroSpawner.transform.position, Quaternion.identity));
+        //aroListaObjs.Add(Instantiate(aro, aroSpawner.transform.position, Quaternion.identity));
         //aro1
         aroBoundSpawn1 = aroSpawner1.GetComponent<BoxCollider>();
-        aroListaObjs1.Add(Instantiate(aro1, aroSpawner1.transform.position, Quaternion.identity));
+        //aroListaObjs1.Add(Instantiate(aro1, aroSpawner1.transform.position, Quaternion.identity));
         //bola0
         bolasBoundSpawn = bolasSpawner.GetComponent<BoxCollider>();
-        bolasListaObjs.Add(Instantiate(bolas, bolasSpawner.transform.position, Quaternion.identity));
+        //bolasListaObjs.Add(Instantiate(bolas, bolasSpawner.transform.position, Quaternion.identity));
         //bolas1
         bolasBoundSpawn1 = bolasSpawner1.GetComponent<BoxCollider>();
-        bolasListaObjs1.Add(Instantiate(bolas1, bolasSpawner1.transform.position, Quaternion.identity));
+        //bolasListaObjs1.Add(Instantiate(bolas1, bolasSpawner1.transform.position, Quaternion.identity));
     }
 
     // Update is called once per frame
     void Update()
     {
-            StartCoroutine(SpawnObj());
+        StartCoroutine(SpawnObj());
+
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //Instantiate(aro, aroSpawner.transform.position, Quaternion.Euler(90, 0, 0));
-            ////dardos
-            //dardoListaObjs.Add(Instantiate(dardo, dardoSpawner.transform.position, Quaternion.Euler(90, 0, 0)));
-            //dardoListaObjs1.Add(Instantiate(dardo1, dardoSpawner1.transform.position, Quaternion.Euler(90, 0, 0)));
-            ////aros
-            //aroListaObjs.Add(Instantiate(aro, aroSpawner.transform.position, Quaternion.identity));
-            //aroListaObjs1.Add(Instantiate(aro1, aroSpawner1.transform.position, Quaternion.identity));
-            ////bolas
-            //bolasListaObjs.Add(Instantiate(bolas, bolasSpawner.transform.position, Quaternion.identity));
-            //bolasListaObjs1.Add(Instantiate(aro1, bolasSpawner1.transform.position, Quaternion.identity));
+            //dardos
+            dardoListaObjs.Add(Instantiate(dardo, dardoSpawner.transform.position, Quaternion.Euler(90, 0, 0)));
+            dardoListaObjs1.Add(Instantiate(dardo1, dardoSpawner1.transform.position, Quaternion.Euler(90, 0, 0)));
+            //aros
+            aroListaObjs.Add(Instantiate(aro, aroSpawner.transform.position, Quaternion.identity));
+            aroListaObjs1.Add(Instantiate(aro1, aroSpawner1.transform.position, Quaternion.identity));
+            //bolas
+            bolasListaObjs.Add(Instantiate(bolas, bolasSpawner.transform.position, Quaternion.identity));
+            bolasListaObjs1.Add(Instantiate(aro1, bolasSpawner1.transform.position, Quaternion.identity));
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            StopAllCoroutines();
+            for (int i = 0; i < aroListaObjs.Count; i++)
+            {
+                Destroy(aroListaObjs[i]);
+
+            }
+            for (int i = 0; i < aroListaObjs1.Count; i++)
+            {
+                Destroy(aroListaObjs1[i]);
+
+            }
+
+            for (int i = 0; i < dardoListaObjs.Count; i++)
+            {
+                Destroy(dardoListaObjs[i]);
+
+            }
+            for (int i = 0; i < dardoListaObjs1.Count; i++)
+            {
+                Destroy(dardoListaObjs1[i]);
+
+            }
+            for (int i = 0; i < bolasListaObjs.Count; i++)
+            {
+                Destroy(bolasListaObjs[i]);
+
+            }
+            for (int i = 0; i < bolasListaObjs1.Count; i++)
+            {
+                Destroy(bolasListaObjs1[i]);
+            }
+
+            aroListaObjs.Clear();
+                aroListaObjs1.Clear();
+                dardoListaObjs.Clear();
+                dardoListaObjs1.Clear();
+                bolasListaObjs.Clear();
+                bolasListaObjs1.Clear();
+
 
 
         }
-        
+
     }
     IEnumerator SpawnObj()
     {
